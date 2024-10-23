@@ -1,4 +1,10 @@
-ul li:hover{
-    cursor: pointer;
-    color: red;
-}
+#loader {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1.33s ease-in-out; 
+  }
+  #content {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s ease-in; 
+  }

@@ -23,4 +23,21 @@ function textAnimation() {
     stagger: 0.03,
   });
 }
+
+function loader() {
+  window.addEventListener("load", function () {
+    const loader = document.getElementById("loader");
+    const content = document.getElementById("content");
+
+    // Fade out the loader
+    loader.style.opacity = "0";
+    setTimeout(function () {
+      loader.style.display = "none";
+      content.style.visibility = "visible";
+      content.style.opacity = "1";
+    }, 1500);
+  });
+}
+
 textAnimation();
+// loader();
