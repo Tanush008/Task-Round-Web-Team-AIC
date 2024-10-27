@@ -8,24 +8,24 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<!-- <div id="loader" class="fixed inset-0 flex items-center justify-center bg-white z-50">
+<div id="loader" class="fixed inset-0 flex items-center justify-center bg-white z-50">
     <div class="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500 border-solid"></div>
-  </div> -->
-<main class="bg-black">
+</div>
+<main>
     <!-- navbar -->
-    <div>
-        <nav class="px-9 border-b-2 pt-[40px]">
+    <div class="bg-black">
+        <nav class="px-9 border-b-2 pt-[40px] ">
             <ul class="flex items-center justify-between mb-2">
                 <img class="h-12 cursor-pointer" src="../assets/club_logo.png" alt="club-logo">
                 <ul class=" flex items-center justify-end gap-10 text-white text-xl mb-2">
                     <li
-                        class="shadow-lg  cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110 hover:bg-green-600 hover:shadow-2xl hover:-translate-y-1 focus:outline-none">
+                        class="shadow-lg  cursor-pointer transition-transform duration-300 ease-in-out transform  focus:outline-none">
                         About Us</li>
                     <li
-                        class="shadow-lg  cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110 hover:bg-green-600 hover:shadow-2xl hover:-translate-y-1 focus:outline-none">
+                        class="shadow-lg  cursor-pointer transition-transform duration-300 ease-in-out transform  focus:outline-none">
                         Events</li>
                     <li
-                        class="shadow-lg  cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110 hover:bg-green-600 hover:shadow-2xl hover:-translate-y-1 focus:outline-none">
+                        class="shadow-lg  cursor-pointer transition-transform duration-300 ease-in-out transform  focus:outline-none">
                         Contact</li>
                     <button
                         class="bg-blue-500 mt-2 text-white font-bold py-3 px-3 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:bg-green-600 hover:shadow-2xl hover:-translate-y-1 focus:outline-none">
@@ -36,83 +36,81 @@
         </nav>
     </div>
     <!-- hero-section -->
-    <div class="hero-section">
-        <div class="heading w-[80%] px-[8rem] mt-[40px]">
-            <h1 class="text-8xl text-white">A place to share one’s <span
+    <div class="hero-section bg-black" data-color="black">
+        <div class="heading w-[80%] px-[8rem] ">
+            <h1 class="text-8xl text-white pt-10">A place to share one’s <span
                     class="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-transparent bg-clip-text">Passion
                     for AI</span></h1>
         </div>
         <div class="para  section w-[70%] relative top-1/2 left-1/2 -translate-x-1/2 ">
             <div class="text">
-                <p class="textPara text-white text-2xl px-[5rem] py-[5rem] font-light text-center">Working with At the
-                    VIT Bhopal AI Club, we are a passionate community of innovators, learners, and AI enthusiasts driven
-                    by the desire to explore the limitless possibilities of artificial intelligence. Whether you're a
-                    beginner curious about the basics of machine learning or an advanced coder diving deep into neural
-                    networks, our club provides the perfect platform for collaboration, growth, and discovery. We host
-                    workshops, hackathons, guest lectures from industry experts, and hands-on projects that challenge
-                    and inspire members to push the boundaries of technology. Join us and be part of shaping the future,
-                    one algorithm at a time!
+                <p class="textPara text-white text-2xl px-[5rem] py-[5rem] font-light text-center">Working with At the VIT Bhopal AI Club, we are a passionate community of innovators, learners, and AI enthusiasts driven by the desire to explore the limitless possibilities of artificial intelligence. Whether you're a beginner curious about the basics of machine learning or an advanced coder diving deep into neural networks, our club provides the perfect platform for collaboration, growth, and discovery. We host workshops, hackathons, guest lectures from industry experts, and hands-on projects that challenge and inspire members to push the boundaries of technology. Join us and be part of shaping the future,one algorithm at a time!
                 </p>
             </div>
         </div>
     </div>
     <!-- border-bt -->
-    <div class="border-b-2 mt-8 border-white"></div>
+    <div class="border-b-4 border-white"></div>
     <!-- Event Page/card-->
-    <div class="mt-10 ">
-        <h1 class="text-6xl font-bold  text-white text-center">
-            Events
-        </h1>
-        <div class="border-b-2 border-white w-[15%] ml-[600px]"></div>
+    <div data-color="salmon" class="section">
+        <div class="mt-10 ">
+            <h1 class="text-6xl font-bold  text-white text-center">
+                Events
+            </h1>
+            <div class="border-b-2 border-white w-[15%] ml-[600px]"></div>
 
-    </div>
-    <div class="flex justify-center items-center min-h-screen pt-10 mb-20">
-        <div class="flex flex-row space-x-4 gap-6">
-            <!-- Card 1 -->
-            <div
-                class="bg-white  rounded-lg  shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:-translate-y-2 p-6 w-80">
-                <img class='rounded-md' src="../assets/Event_1-min.jpg" alt="">
-                <h2 class="text-xl font-bold mb-2 mt-2">Event</h2>
-                <p class="text-gray-700">"Join us for an exciting event hosted by the AI Club, where we dive into the
-                    world of artificial intelligence! Explore the latest trends, engage in hands-on workshops, and
-                    connect with peers passionate about AI and tech innovation.</p>
-                <button
-                    class="bg-blue-500 mt-2 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:bg-green-600 hover:shadow-2xl hover:-translate-y-1 focus:outline-none">
-                    Join Now
-                </button>
-            </div>
+        </div>
+        <div class="flex justify-center items-center min-h-screen pt-10 mb-20">
+            <div class="flex flex-row space-x-4 gap-6">
+                <!-- Card 1 -->
+                <div
+                    class="bg-white  rounded-lg  shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:-translate-y-2 p-6 w-80">
+                    <img class='rounded-md' src="../assets/Event_1-min.jpg" alt="">
+                    <h2 class="text-xl font-bold mb-2 mt-2">Event</h2>
+                    <p class="text-gray-700">"Join us for an exciting event hosted by the AI Club, where we dive into
+                        the
+                        world of artificial intelligence! Explore the latest trends, engage in hands-on workshops, and
+                        connect with peers passionate about AI and tech innovation.</p>
+                    <button
+                        class="bg-blue-500 mt-2 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:bg-green-600 hover:shadow-2xl hover:-translate-y-1 focus:outline-none">
+                        Join Now
+                    </button>
+                </div>
 
-            <!-- Card 2 -->
-            <div
-                class="bg-white  rounded-lg  shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:-translate-y-2 p-6 w-80">
-                <img class='rounded-md' src="../assets/Event_2-min.png" alt="">
-                <h2 class="text-xl font-bold mb-2 mt-2">Event</h2>
-                <p class="text-gray-700">"Join us for an exciting event hosted by the AI Club, where we dive into the
-                    world of artificial intelligence! Explore the latest trends, engage in hands-on workshops, and
-                    connect with peers passionate about AI and tech innovation.</p>
-                <button
-                    class="bg-blue-500 mt-2 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:bg-green-600 hover:shadow-2xl hover:-translate-y-1 focus:outline-none">
-                    Join Now
-                </button>
-            </div>
+                <!-- Card 2 -->
+                <div
+                    class="bg-white  rounded-lg  shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:-translate-y-2 p-6 w-80">
+                    <img class='rounded-md' src="../assets/Event_2-min.png" alt="">
+                    <h2 class="text-xl font-bold mb-2 mt-2">Event</h2>
+                    <p class="text-gray-700">"Join us for an exciting event hosted by the AI Club, where we dive into
+                        the
+                        world of artificial intelligence! Explore the latest trends, engage in hands-on workshops, and
+                        connect with peers passionate about AI and tech innovation.</p>
+                    <button
+                        class="bg-blue-500 mt-2 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:bg-green-600 hover:shadow-2xl hover:-translate-y-1 focus:outline-none">
+                        Join Now
+                    </button>
+                </div>
 
-            <!-- Card 3 -->
-            <div
-                class="bg-white  rounded-lg  shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:-translate-y-2 p-6 w-80">
-                <img class='rounded-md' src="../assets/Event_3-min.jpg" alt="">
-                <h2 class="text-xl font-bold mb-2 mt-2">Event</h2>
-                <p class="text-gray-700">"Join us for an exciting event hosted by the AI Club, where we dive into the
-                    world of artificial intelligence! Explore the latest trends, engage in hands-on workshops, and
-                    connect with peers passionate about AI and tech innovation.</p>
-                <button
-                    class="bg-blue-500 mt-2 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:bg-green-600 hover:shadow-2xl hover:-translate-y-1 focus:outline-none">
-                    Join Now
-                </button>
+                <!-- Card 3 -->
+                <div
+                    class="bg-white  rounded-lg  shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:-translate-y-2 p-6 w-80">
+                    <img class='rounded-md' src="../assets/Event_3-min.jpg" alt="">
+                    <h2 class="text-xl font-bold mb-2 mt-2">Event</h2>
+                    <p class="text-gray-700">"Join us for an exciting event hosted by the AI Club, where we dive into
+                        the
+                        world of artificial intelligence! Explore the latest trends, engage in hands-on workshops, and
+                        connect with peers passionate about AI and tech innovation.</p>
+                    <button
+                        class="bg-blue-500 mt-2 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:bg-green-600 hover:shadow-2xl hover:-translate-y-1 focus:outline-none">
+                        Join Now
+                    </button>
+                </div>
             </div>
         </div>
     </div>
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-5  ">
+    <footer class="bg-gray-800 text-white py-5 " data-color="black">
         <div class="container mx-auto px-4 mt-10">
             <div class="flex flex-wrap justify-between">
 

@@ -39,5 +39,22 @@ function loader() {
   });
 }
 
+function colorAnimation() {
+  document.querySelectorAll(".section").forEach(function (e) {
+    ScrollTrigger.create({
+      trigger: e,
+      start: "top 50%",
+      end: "bottom 50%",
+      onEnter: function () {
+        document.body.setAttribute("theme", e.dataset.color);
+      },
+      onEnterBack: function () {
+        document.body.setAttribute("theme", e.dataset.color);
+      },
+      // markers: true,
+    });
+  });
+}
+colorAnimation();
 textAnimation();
-// loader();
+loader();

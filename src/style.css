@@ -1,10 +1,28 @@
 #loader {
-    visibility: visible;
-    opacity: 1;
-    transition: opacity 1.33s ease-in-out; 
-  }
-  #content {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 1.5s ease-in; 
-  }
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1.33s ease-in-out;
+}
+#content {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s ease-in;
+}
+:root {
+  --salmon: #ef9d71;
+  --black: #000;
+  --white: #fff;
+  --cyan: #203f40;
+  --dsalmon: #532521;
+  --dcyan: #1f2f32;
+}
+body[theme="salmon"] {
+  background-color: salmon;
+}
+body[theme="black"] {
+  background-color: #000;
+}
+ul li:hover{
+  border-bottom: 1px solid white;
+  
+}
